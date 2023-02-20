@@ -30,7 +30,7 @@ const Post: React.FC<CardProp> = (prop) => {
     const handleLike = () => {
         setLiked(!liked);
     };
-    console.log(image)
+    // console.log(image)
 
     return (
         <div className="post">
